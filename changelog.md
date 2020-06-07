@@ -8,3 +8,4 @@ description:
 - initail commit
     - changelog.md
     - index.htm
+    - js/script.js

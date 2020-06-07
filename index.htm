@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Coding Explore</title>
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <title>Coding Explore</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 <body>
-<main-app id="main">
-    <pre>total codes: {{lines}}</pre>
-    <button @click="lines += 1">Code</button>
-</main-app>
-<script>
-var mainApp = new Vue({
-    el: 'main-app#main',
-    data: {
-        lines: 0
-    }
-})
-</script>
+    <main-app id="main">
+        <pre>total codes: {{lines}}</pre>
+        <button @click="lines += 1">Code</button>
+    </main-app>
+    <script>
+    var mainApp = new Vue({
+        el: 'main-app#main',
+        data: {
+            lines: 0
+        }
+    })
+    </script>
 </body>
 </html>
